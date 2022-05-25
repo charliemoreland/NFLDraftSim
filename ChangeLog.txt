@@ -1,1 +1,2 @@
 5/23 Created a folder of all 32 teams logos and created a table on the home page with 1-32 in their repectives table cells created a css page for the styling of the images.
+5/25 Styled more of the table and and created a header added all 32 draft picks with their respective teams logo to the table.
