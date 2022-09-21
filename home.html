@@ -3,50 +3,51 @@
     <background-color:black></background-color>
 <head>
     <link rel="stylesheet" href="home.css">
+    <script src="home.js"></script>
     <title>NFL 1st Round Sim</title>
 </head>
 <body>
 <h1>NFL Draft 1st Round Simulator</h1>
 <table id="draftorder">
 <tr>
-<td>1 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/JAX class="logo" > </td>
-<td>5 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/NYG class="logo" ></td>
-<td>9 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/SEA class="logo" ></td>
-<td>13 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/PHI class="logo" ></td>
-<td>17 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/LAC class="logo" ></td>
-<td>21 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/KC class="logo" ></td>
-<td>25 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/BAL class="logo" ></td>
-<td>29 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/NE class="logo" ></td>
+<td id="1">1 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/JAX class="logo" > </td>
+<td id="5">5 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/NYG class="logo" ></td>
+<td id="9">9 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/SEA class="logo" ></td>
+<td id="13">13 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/PHI class="logo" ></td>
+<td id="17">17 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/LAC class="logo" ></td>
+<td id="21">21 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/KC class="logo" ></td>
+<td id="25">25 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/BAL class="logo" ></td>
+<td id="29">29 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/NE class="logo" ></td>
 </tr>
 <tr>
-    <td>2 <img src="https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/DET" class="logo" ></td>
-    <td>6 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/CAR class="logo" ></td>
-    <td>10 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/NYJ class="logo" ></td>
-    <td>14 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/BAL class="logo" ></td>
-    <td>18 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/TEN class="logo" ></td>
-    <td>22 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/GB class="logo" ></td>
-    <td>26 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/NYJ class="logo" ></td>
-    <td>30 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/KC class="logo" ></td>
+    <td id="2">2 <img src="https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/DET" class="logo" ></td>
+    <td id="6">6 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/CAR class="logo" ></td>
+    <td id="10">10 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/NYJ class="logo" ></td>
+    <td id="14">14 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/BAL class="logo" ></td>
+    <td id="18">18 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/TEN class="logo" ></td>
+    <td id="22">22 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/GB class="logo" ></td>
+    <td id="26">26 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/NYJ class="logo" ></td>
+    <td id="30">30 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/KC class="logo" ></td>
 </tr>
 <tr>
-    <td>3 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/HOU class="logo" ></td>
-    <td>7 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/NYG class="logo" ></td>
-    <td>11 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/NO class="logo" ></td>
-    <td>15 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/HOU class="logo" ></td>
-    <td>19 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/NO class="logo" ></td>
-    <td>23 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/BUF class="logo" ></td>
-    <td>27 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/JAX class="logo" ></td>
-    <td>31 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/CIN class="logo" ></td>
+    <td id="3">3 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/HOU class="logo" ></td>
+    <td id="7">7 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/NYG class="logo" ></td>
+    <td id="11">11 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/NO class="logo" ></td>
+    <td id="15">15 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/HOU class="logo" ></td>
+    <td id="19">19 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/NO class="logo" ></td>
+    <td id="23">23 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/BUF class="logo" ></td>
+    <td id="27">27 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/JAX class="logo" ></td>
+    <td id="31">31 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/CIN class="logo" ></td>
 </tr>
 <tr>
-    <td>4 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/NYJ class="logo" ></td>
-    <td>8 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/ATL class="logo" ></td>
-    <td>12 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/DET class="logo" ></td>
-    <td>16 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/WAS class="logo" ></td>
-    <td>20 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/PIT class="logo" ></td>
-    <td>24 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/DAL class="logo" ></td>
-    <td>28 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/GB class="logo" ></td>
-    <td>32 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/MIN class="logo" ></td>
+    <td id="4">4 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/NYJ class="logo" ></td>
+    <td id="8">8 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/ATL class="logo" ></td>
+    <td id="12">12 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/DET class="logo" ></td>
+    <td id="16">16 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/WAS class="logo" ></td>
+    <td id="20">20 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/PIT class="logo" ></td>
+    <td id="24">24 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/DAL class="logo" ></td>
+    <td id="28">28 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/GB class="logo" ></td>
+    <td id="32">32 <img src=https://static.www.nfl.com/t_headshot_desktop_2x/f_auto/league/api/clubs/logos/MIN class="logo" ></td>
 </tr>
 </table>
 <!--
@@ -56,6 +57,7 @@
 <br>
 <br>
 <br>
+<p id="playername"></p>
 <table id="stats">
 <tr> 
 <th>40 Time</th>
@@ -70,4 +72,14 @@
 <td>11' 4"</td>
 </tr>
 </table>
+    <p id="demo"></p>
+    <div id="Team"></div>
+    <div id="Pick"></div>
+    <div id="Time"></div>
+    <div class="btn-text-center">
+          <button type="button" id="pausebtn" onclick="pause()" class="btn btn-primary">||</button>
+            <button type="button" id="skipbtn" onclick="endgame()" class="btn btn-primary">>></button>
+    </div>
+    <div id="Previous"></div>
+
 </html>
