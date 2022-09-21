@@ -1,2 +1,2 @@
 # NFLDraftSim
-![Example](exampleScreenshot)
+![Example](exampleScreenshot.png)
